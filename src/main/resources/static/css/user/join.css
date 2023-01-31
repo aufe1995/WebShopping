@@ -1,0 +1,67 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding:0;
+}
+
+/* 내용 부분 크기 */
+.wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: #FFAEC8;
+}
+
+.warp {
+    width: 1080px;
+    margin: auto;
+}
+
+/* 회원가입 이름 영역 */
+.title_area {
+    padding: 20px 15px;
+}
+
+.title_area>span{
+	font-size : 30px;
+	font-weight: 900;
+}
+
+.boundary {
+  width: 100%;
+  background-color: black;
+  height: 5px;
+  margin-bottom: 25px;
+}
+
+.join_warp {
+  padding-left: 60px;
+  height: 600px;
+}
+
+.list {
+  font-size : 20px;
+  width : 200px;
+  margin : 15px 5px 15px 5px;
+  display: inline-block;
+}
+
+.inputDiv {
+  font-size : 20px;
+  width : 300px;
+  margin : 15px 5px 15px 5px;
+  display: inline-block;
+}
+
+.desc {
+  font-size : 15px;
+  margin : -5px 0 15px 225px;
+}
+
+#idCheck {
+  display: inline-block;
+}
+
+#buttonDiv {
+  margin : auto;
+  width: 400px;
+}
