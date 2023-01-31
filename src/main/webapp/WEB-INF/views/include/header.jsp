@@ -7,13 +7,14 @@
 <link rel="stylesheet" href="/css/include/header.css">
 </head>
 <body>
-	<div class="header">
+<div class="header">
+	<div class="head">
 
-		<div class="head">
+		<div class="logo_area">
 			<a href="/"><img src="/img/logo.png" alt="이미지" onclick="location.href='/'" height="60px"></a>
 
 			<div class="login_area">
-                <div class="login_button"><a href="/user/login">로그인</a></div>
+                <div class="login_button" onclick="location.href='/user/login'">로그인</a></div>
             </div>
 		</div>
 
@@ -31,10 +32,10 @@
 			<button class="menu_button">베스트리뷰</button>
 		</div>
 
-
-
 		<div class="clearfix"></div>
 
 	</div>
+
+</div>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>SHOPPING MALL</title>
+<title>WEB SHOPPING</title>
 <link rel="stylesheet" href="/css/main.css">
 <%@ include file="/WEB-INF/views/include/header.jsp" %>
 
